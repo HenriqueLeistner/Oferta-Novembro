@@ -82,13 +82,13 @@ export default function PricingSection({ onCheckout }: PricingSectionProps) {
             transition={{ duration: 0.6, delay: 0.2 }}
             whileHover={{ y: -8 }}
           >
-            <Card className="rounded-3xl shadow-2xl relative border-3 border-primary overflow-hidden" data-testid="premium-plan-card">
+            <Card className="rounded-3xl shadow-2xl relative border-2 border-primary overflow-visible" data-testid="premium-plan-card">
               {/* Most Popular Badge */}
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-primary to-accent text-white px-6 py-2 rounded-full text-xs font-bold tracking-wider z-10">
-                MAIS POPULAR
+              <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-primary to-accent text-white px-8 py-3 rounded-full text-sm font-bold tracking-wider shadow-lg z-20">
+                ⭐ MAIS POPULAR
               </div>
               
-              <CardContent className="p-8">
+              <CardContent className="p-8 pt-12">
                 <div className="text-center mb-8">
                   <h3 className="font-display font-bold text-2xl mb-2 gradient-text" data-testid="premium-plan-title">Plano Premium</h3>
                   <p className="text-muted-foreground mb-6">A escolha das experientes</p>
@@ -96,7 +96,7 @@ export default function PricingSection({ onCheckout }: PricingSectionProps) {
                     <span className="text-5xl font-bold text-foreground" data-testid="premium-plan-price">R$ 27</span>
                     <span className="text-muted-foreground">,90</span>
                   </div>
-                  <p className="text-sm text-muted-foreground mb-6" data-testid="premium-bonus-value">+ R$ 67,00 em bônus exclusivos</p>
+                  <p className="text-sm text-muted-foreground mb-6" data-testid="premium-bonus-value">+ R$ 57,90 em bônus exclusivos</p>
                   <Button 
                     onClick={() => onCheckout('premium')}
                     className="w-full btn-gradient text-white px-8 py-4 rounded-full font-bold text-lg shadow-xl hover:scale-105 transition-all duration-300"
@@ -111,14 +111,6 @@ export default function PricingSection({ onCheckout }: PricingSectionProps) {
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <i className="fas fa-star text-accent text-xl mt-1"></i>
-                    <span>Acompanhamento fotográfico ilimitado</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <i className="fas fa-star text-accent text-xl mt-1"></i>
-                    <span>Relatórios detalhados de progresso</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <i className="fas fa-star text-accent text-xl mt-1"></i>
                     <span>Acesso à comunidade exclusiva</span>
                   </li>
                   <li className="flex items-start gap-3">
@@ -127,7 +119,7 @@ export default function PricingSection({ onCheckout }: PricingSectionProps) {
                   </li>
                   <li className="flex items-start gap-3">
                     <i className="fas fa-star text-accent text-xl mt-1"></i>
-                    <span className="font-semibold">+ 10 Bônus Exclusivos (R$ 67,00)</span>
+                    <span className="font-semibold">+ 10 Bônus Exclusivos (R$ 57,90)</span>
                   </li>
                 </ul>
               </CardContent>

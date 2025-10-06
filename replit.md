@@ -6,6 +6,31 @@ This is a full-stack web application for a Brazilian tanning/bronzing service ca
 
 The application is built as a monorepo with a React frontend using shadcn/ui components and Tailwind CSS, an Express backend, and PostgreSQL database support through Drizzle ORM.
 
+## Recent Changes
+
+**October 6, 2025**
+- Project imported and configured for Replit environment
+- Database connection verified (PostgreSQL via Neon)
+- Database schema migrated successfully using Drizzle
+- Development workflow configured and running on port 5000
+- Deployment configured for autoscale with build and start commands
+- Updated bonuses section with 10 new bonus items (total value R$ 57,90):
+  1. Checklist da Marquinha Perfeita (R$ 4,90)
+  2. Calendário de Exposição ao Sol (R$ 6,50)
+  3. Receitas de Bronzeamento Caseiro (R$ 7,90)
+  4. Guia de Proteção Inteligente (R$ 5,90)
+  5. Lista de Produtos Baratinhos que Funcionam (R$ 4,50)
+  6. Roteiro de Alongamentos na Praia (R$ 3,90)
+  7. Receitas Detox Pós-Sol (R$ 5,50)
+  8. Mini-Guia de Pós-Bronze (R$ 6,90)
+  9. Checklist de Itens para Praia/Piscina (R$ 3,90)
+  10. Desafio 7 Dias da Marquinha Perfeita (R$ 8,00)
+- Created new "Problems & Solutions" section showing pain points and solutions
+- Changed all references from "curso" to "aplicativo" throughout the site
+- Updated pricing section: removed photo tracking and progress reports from Premium plan
+- Fixed "MAIS POPULAR" badge on Premium plan card
+- Added guarantee section: "E Se Eu Não Gostar do Aplicativo?" with 7-day money-back guarantee
+
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.

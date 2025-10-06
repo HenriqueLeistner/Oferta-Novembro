@@ -1,4 +1,5 @@
 import HeroSection from "@/components/hero-section";
+import ProblemsSolutionsSection from "@/components/problems-solutions-section";
 import BenefitsSection from "@/components/benefits-section";
 import PricingSection from "@/components/pricing-section";
 import BonusesSection from "@/components/bonuses-section";
@@ -53,6 +54,7 @@ export default function Home() {
       </motion.nav>
 
       <HeroSection onScrollToPlans={scrollToPlans} />
+      <ProblemsSolutionsSection />
       <BenefitsSection />
       <PricingSection onCheckout={handleCheckout} />
       <BonusesSection />
@@ -97,6 +99,47 @@ export default function Home() {
                   <i className="fas fa-check-circle"></i>
                   <span>Garantia de 7 dias</span>
                 </div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Guarantee Section */}
+      <section className="py-16 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <motion.div 
+            className="max-w-3xl mx-auto"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <div className="bg-white rounded-2xl p-8 lg:p-12 shadow-lg border-2 border-primary/20">
+              <div className="text-center mb-6">
+                <div className="inline-block bg-gradient-to-br from-primary to-accent text-white w-20 h-20 rounded-full flex items-center justify-center mb-4 shadow-xl">
+                  <i className="fas fa-shield-alt text-3xl"></i>
+                </div>
+                <h3 className="font-display font-bold text-2xl lg:text-3xl mb-4 gradient-text">
+                  E Se Eu Não Gostar do Aplicativo?
+                </h3>
+                <p className="text-lg text-muted-foreground mb-6">
+                  Sem problemas! Você tem nossa
+                </p>
+                <div className="inline-block bg-gradient-to-r from-green-500 to-emerald-600 text-white px-8 py-4 rounded-full shadow-lg">
+                  <p className="text-2xl font-bold">
+                    🛡️ Garantia de 7 Dias
+                  </p>
+                </div>
+              </div>
+              <div className="mt-8 space-y-4 text-center">
+                <p className="text-base lg:text-lg text-foreground leading-relaxed">
+                  Se você não ficar completamente satisfeita com o aplicativo nos primeiros 7 dias, 
+                  devolvemos <span className="font-bold text-primary">100% do seu dinheiro</span>, sem perguntas e sem complicação.
+                </p>
+                <p className="text-sm text-muted-foreground italic">
+                  Simples assim! Você não tem nada a perder e uma marquinha perfeita a ganhar.
+                </p>
               </div>
             </div>
           </motion.div>

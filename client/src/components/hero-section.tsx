@@ -20,7 +20,7 @@ export default function HeroSection({ onScrollToPlans }: HeroSectionProps) {
             <h1 className="font-display font-bold text-4xl lg:text-6xl mb-6 text-white leading-tight">
               Conquiste a<br/>
               <span className="font-serif italic">Marquinha Perfeita</span><br/>
-              O Ano Todo! ☀️
+              Neste Verão! ☀️
             </h1>
             <p className="text-lg lg:text-xl text-white/90 mb-8 leading-relaxed">
               O aplicativo definitivo para acompanhar seu bronzeado, receber dicas personalizadas e conquistar aquela marquinha dos sonhos com segurança.

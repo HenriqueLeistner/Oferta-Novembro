@@ -3,64 +3,64 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const bonuses = [
   {
-    icon: "fas fa-book",
-    title: "Guia Completo de Bronzeamento",
-    description: "E-book com todas as técnicas profissionais para bronzear com segurança e resultados incríveis.",
-    value: "R$ 9,90"
-  },
-  {
-    icon: "fas fa-video",
-    title: "Masterclass Marquinha Perfeita",
-    description: "Vídeo-aulas exclusivas com especialistas ensinando técnicas avançadas de bronzeamento.",
-    value: "R$ 12,00"
-  },
-  {
-    icon: "fas fa-spa",
-    title: "Receitas de Hidratantes Caseiros",
-    description: "Aprenda a fazer seus próprios produtos naturais para prolongar o bronzeado.",
-    value: "R$ 4,90"
-  },
-  {
-    icon: "fas fa-utensils",
-    title: "Plano Alimentar Pro-Bronze",
-    description: "Dieta específica com alimentos que potencializam o bronzeado natural da pele.",
-    value: "R$ 8,90"
-  },
-  {
-    icon: "fas fa-clock",
-    title: "Cronograma Personalizado",
-    description: "Plano de bronzeamento sob medida baseado no seu tipo de pele e objetivo.",
-    value: "R$ 6,50"
-  },
-  {
-    icon: "fas fa-map-marked-alt",
-    title: "Mapa dos Melhores Locais",
-    description: "Descubra os pontos ideais para bronzear na sua cidade com avaliações da comunidade.",
-    value: "R$ 3,90"
-  },
-  {
-    icon: "fas fa-first-aid",
-    title: "Guia SOS Pele Queimada",
-    description: "Aprenda a tratar e recuperar rapidamente de queimaduras solares.",
-    value: "R$ 5,90"
-  },
-  {
-    icon: "fas fa-tshirt",
-    title: "Guia de Trajes para Marquinha",
-    description: "Saiba exatamente quais trajes usar para conseguir cada tipo de marquinha.",
+    icon: "fas fa-check-circle",
+    title: "Checklist da Marquinha Perfeita",
+    description: "Um passo a passo simples e prático para seguir antes, durante e depois de pegar sol.",
     value: "R$ 4,90"
   },
   {
     icon: "fas fa-calendar-alt",
-    title: "Calendário Lunar do Bronze",
-    description: "Aproveite as fases da lua para potencializar seus resultados de bronzeamento.",
-    value: "R$ 3,50"
+    title: "Calendário de Exposição ao Sol",
+    description: "Um cronograma com os melhores horários e dias para tomar sol sem prejudicar a pele.",
+    value: "R$ 6,50"
   },
   {
-    icon: "fas fa-comments",
-    title: "Grupo VIP no WhatsApp",
-    description: "Acesso exclusivo ao grupo com dicas diárias, desafios e suporte em tempo real.",
-    value: "R$ 6,60"
+    icon: "fas fa-leaf",
+    title: "Receitas de Bronzeamento Caseiro",
+    description: "Misturinhas naturais (com cenoura, beterraba, óleo de coco, etc.) para potencializar o bronze.",
+    value: "R$ 7,90"
+  },
+  {
+    icon: "fas fa-shield-alt",
+    title: "Guia de Proteção Inteligente",
+    description: "Dicas de como usar protetor solar do jeito certo sem perder o bronzeado.",
+    value: "R$ 5,90"
+  },
+  {
+    icon: "fas fa-tag",
+    title: "Lista de Produtos Baratinhos que Funcionam",
+    description: "Sugestões acessíveis de óleos, cremes e loções que ajudam na marquinha.",
+    value: "R$ 4,50"
+  },
+  {
+    icon: "fas fa-dumbbell",
+    title: "Roteiro de Alongamentos na Praia",
+    description: "Exercícios simples para deixar o corpo mais relaxado e a marquinha ainda mais bonita.",
+    value: "R$ 3,90"
+  },
+  {
+    icon: "fas fa-blender",
+    title: "Receitas Detox Pós-Sol",
+    description: "Bebidas rápidas para hidratar e recuperar a pele depois de um dia de sol.",
+    value: "R$ 5,50"
+  },
+  {
+    icon: "fas fa-medal",
+    title: "Mini-Guia de Pós-Bronze",
+    description: "Como manter a marquinha por mais tempo com cuidados diários.",
+    value: "R$ 6,90"
+  },
+  {
+    icon: "fas fa-umbrella-beach",
+    title: "Checklist de Itens para Praia/Piscina",
+    description: "Lista pronta para não esquecer nada (biquíni certo, canga, chapéu, óculos, protetor, etc.).",
+    value: "R$ 3,90"
+  },
+  {
+    icon: "fas fa-trophy",
+    title: "Desafio 7 Dias da Marquinha Perfeita",
+    description: "Um pequeno desafio com tarefas diárias para acelerar os resultados e engajar a leitora.",
+    value: "R$ 8,00"
   }
 ];
 
@@ -79,7 +79,7 @@ export default function BonusesSection() {
             Bônus Exclusivos Premium
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Ao escolher o plano Premium, você recebe <span className="font-bold text-accent">R$ 67,00</span> em conteúdos e ferramentas exclusivas inclusos!
+            Ao escolher o plano Premium, você recebe <span className="font-bold text-accent">R$ 57,90</span> em conteúdos e ferramentas exclusivas inclusos!
           </p>
         </motion.div>
 
@@ -127,7 +127,7 @@ export default function BonusesSection() {
         >
           <div className="inline-block bg-gradient-to-r from-primary/10 to-accent/10 border-2 border-primary/20 rounded-2xl p-8" data-testid="bonus-total-value">
             <p className="text-2xl font-bold mb-2">
-              Valor Total dos Bônus: <span className="text-accent">R$ 67,00</span>
+              Valor Total dos Bônus: <span className="text-accent">R$ 57,90</span>
             </p>
             <p className="text-muted-foreground">
               Tudo isso incluído no Plano Premium por apenas <span className="font-bold text-foreground">R$ 27,90</span>
