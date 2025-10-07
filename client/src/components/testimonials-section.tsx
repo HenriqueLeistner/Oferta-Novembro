@@ -19,7 +19,7 @@ const testimonials = [
   },
   {
     name: "Camila Oliveira",
-    text: "O acompanhamento fotográfico me ajudou a ver meu progresso real. É motivador ver a evolução semana a semana. Vale cada centavo!",
+    text: "É motivador ver a evolução semana a semana. Vale cada centavo!",
     gradient: "from-pink-400 to-rose-400"
   },
   {
@@ -29,7 +29,7 @@ const testimonials = [
   },
   {
     name: "Larissa Mendes",
-    text: "O grupo VIP no WhatsApp é sensacional! Recebo dicas todos os dias e sempre tem alguém para tirar dúvidas. Melhor investimento que fiz!",
+    text: "Muito bom! Melhor verão impossivel!",
     gradient: "from-orange-400 to-red-400"
   }
 ];

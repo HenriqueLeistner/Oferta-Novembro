@@ -65,10 +65,6 @@ export default function PricingSection({ onCheckout }: PricingSectionProps) {
                     <i className="fas fa-check-circle text-primary text-xl mt-1"></i>
                     <span>Dicas básicas de bronzeamento</span>
                   </li>
-                  <li className="flex items-start gap-3">
-                    <i className="fas fa-check-circle text-primary text-xl mt-1"></i>
-                    <span>Calculadora de FPS</span>
-                  </li>
                 </ul>
               </CardContent>
             </Card>
@@ -122,6 +118,20 @@ export default function PricingSection({ onCheckout }: PricingSectionProps) {
                     <span className="font-semibold">+ 10 Bônus Exclusivos (R$ 57,90)</span>
                   </li>
                 </ul>
+                <div className="mt-6">
+                  <Button
+                    onClick={() => {
+                      const bonusesSection = document.getElementById("bonuses-section");
+                      if (bonusesSection) {
+                        bonusesSection.scrollIntoView({ behavior: "smooth", block: "start" });
+                      }
+                    }}
+                    variant="outline"
+                    className="w-full border border-accent text-accent hover:bg-accent hover:text-white transition-all duration-300 rounded-full font-semibold"
+                  >
+                    Ver Bônus
+                  </Button>
+                </div>
               </CardContent>
             </Card>
           </motion.div>
