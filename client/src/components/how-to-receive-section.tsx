@@ -32,12 +32,6 @@ export default function HowToReceiveSection() {
       description:
         "Sempre que novas versões ou conteúdos forem lançados (como receitas, bônus e guias extras), o app será atualizado automaticamente, sem precisar reinstalar.",
     },
-    {
-      number: "5️⃣",
-      title: "Suporte Direto Pelo WhatsApp",
-      description:
-        "Se tiver qualquer dúvida, basta clicar no botão de suporte dentro do app e falar direto com a nossa equipe pelo WhatsApp 💬",
-    },
   ];
 
   const summaryItems = [
@@ -45,7 +39,7 @@ export default function HowToReceiveSection() {
     "Instale com 1 clique no celular",
     "Funciona em Android e iPhone",
     "Pode usar até offline",
-    "Atualizações automáticas e suporte fácil",
+    "Atualizações automáticas",
   ];
 
   return (

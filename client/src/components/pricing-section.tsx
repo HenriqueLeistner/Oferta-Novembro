@@ -55,6 +55,10 @@ export default function PricingSection({ onCheckout }: PricingSectionProps) {
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <i className="fas fa-check-circle text-primary text-xl mt-1"></i>
+                    <span>Acesso Vitalício</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <i className="fas fa-check-circle text-primary text-xl mt-1"></i>
                     <span>Planejamento de horários de sol</span>
                   </li>
                   <li className="flex items-start gap-3">
@@ -105,6 +109,10 @@ export default function PricingSection({ onCheckout }: PricingSectionProps) {
                   <p className="font-semibold mb-4 text-center">Tudo do Básico, mais:</p>
                 </div>
                 <ul className="space-y-4">
+                  <li className="flex items-start gap-3">
+                    <i className="fas fa-star text-accent text-xl mt-1"></i>
+                    <span>Acesso Vitalício</span>
+                  </li>
                   <li className="flex items-start gap-3">
                     <i className="fas fa-star text-accent text-xl mt-1"></i>
                     <span>Acesso à comunidade exclusiva</span>

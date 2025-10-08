@@ -9,8 +9,26 @@ import FAQSection from "@/components/faq-section";
 import Footer from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 export default function Home() {
+  // Back redirect implementation
+  useEffect(() => {
+    // Adiciona um estado no histórico assim que o usuário entra na página
+    window.history.pushState(null, "", window.location.href);
+    
+    const handlePopState = () => {
+      // Quando o usuário aperta voltar, redireciona para a página de oferta
+      window.location.href = "/oferta-especial";
+    };
+
+    window.addEventListener("popstate", handlePopState);
+
+    return () => {
+      window.removeEventListener("popstate", handlePopState);
+    };
+  }, []);
+
   const scrollToPlans = () => {
     const pricingSection = document.getElementById("pricing-section");
     if (pricingSection) {
@@ -103,7 +121,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-2">
                   <i className="fas fa-check-circle"></i>
-                  <span>Acesso Vítalicio</span>
+                  <span>Acesso Vitalício</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <i className="fas fa-check-circle"></i>
