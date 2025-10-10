@@ -6,7 +6,7 @@ export default function HowToReceiveSection() {
       number: "1️⃣",
       title: "Acesso Imediato Após a Compra",
       description:
-        "Assim que seu pagamento for confirmado, você receberá um link exclusivo por e-mail para acessar o aplicativo Guia da Marquinha Perfeita. Nada de esperar — o acesso é liberado na hora!",
+        "Assim que seu pagamento for confirmado, você receberá um link exclusivo por e-mail para acessar o aplicativo App Marquinha Perfeita. Nada de esperar — o acesso é liberado na hora!",
     },
     {
       number: "2️⃣",

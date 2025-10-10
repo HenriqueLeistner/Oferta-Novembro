@@ -7,7 +7,7 @@ export default function OfertaEspecial() {
     const checkoutUrl =
       import.meta.env.VITE_CHECKOUT_URL_PREMIUM_SPECIAL ||
       import.meta.env.VITE_CHECKOUT_URL_PREMIUM ||
-      "https://checkout.example.com/premium-special";
+      "https://pay.cakto.com.br/793qs3a";
     window.open(checkoutUrl, "_blank");
   };
 
@@ -49,7 +49,7 @@ export default function OfertaEspecial() {
 
             {/* Title */}
             <h1 className="font-display font-bold text-3xl lg:text-5xl mb-6 text-center gradient-text">
-              Última Chance! Plano Premium por Apenas R$ 10! 🎉
+              Última Chance! Plano Premium por Apenas R$ 14,90! 🎉
             </h1>
 
             <p className="text-lg text-muted-foreground text-center mb-8">
@@ -65,9 +65,9 @@ export default function OfertaEspecial() {
                 <div className="line-through text-2xl text-white/70 mb-2">
                   De R$ 27,90
                 </div>
-                <div className="text-6xl font-bold mb-2">R$ 10</div>
+                <div className="text-6xl font-bold mb-2">R$ 14,90</div>
                 <div className="text-xl">
-                  Economize <span className="font-bold">R$ 17,90</span> (64%
+                  Economize <span className="font-bold">R$ 13,00</span> (47%
                   OFF)
                 </div>
               </div>
@@ -163,7 +163,7 @@ export default function OfertaEspecial() {
                 onClick={handleCheckout}
                 className="w-full btn-gradient text-white px-8 py-8 rounded-full font-bold text-2xl shadow-xl hover:scale-105 transition-all duration-300"
               >
-                🎉 SIM! Quero o Premium por R$ 10,00
+                🎉 SIM! Quero o Premium por R$ 14,90
               </Button>
               <div className="text-center">
                 <a

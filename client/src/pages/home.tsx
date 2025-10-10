@@ -41,10 +41,10 @@ export default function Home() {
     const checkoutUrls = {
       basic:
         import.meta.env.VITE_CHECKOUT_URL_BASIC ||
-        "https://checkout.example.com/basic",
+        "https://pay.cakto.com.br/yuvanex_565351",
       premium:
         import.meta.env.VITE_CHECKOUT_URL_PREMIUM ||
-        "https://checkout.example.com/premium",
+        "https://pay.cakto.com.br/eixv33q",
     };
     window.open(checkoutUrls[plan], "_blank");
   };
