@@ -85,26 +85,15 @@ export default function Footer() {
                   data-testid="footer-email"
                 >
                   <i className="fas fa-envelope"></i>
-                  contato@marquinhaperfeita.com
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://wa.me/5511999999999"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
-                  data-testid="footer-whatsapp"
-                >
-                  <i className="fab fa-whatsapp"></i>
-                  (11) 99999-9999
+                  contato@marquinhaperfeitaapp.
+                  mentemilionario.com
                 </a>
               </li>
               <li className="pt-2">
                 <p className="text-muted-foreground text-xs mb-2">Redes Sociais:</p>
                 <div className="flex gap-2">
                   <a
-                    href="#"
+                    href="https://www.instagram.com/appmarquinhaperfeita/"
                     className="w-9 h-9 bg-muted rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all duration-300"
                     data-testid="footer-social-instagram"
                   >
